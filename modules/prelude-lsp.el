@@ -40,6 +40,7 @@
 (define-key lsp-ui-mode-map [remap xref-find-references] #'lsp-ui-peek-find-references)
 (define-key lsp-ui-mode-map (kbd "C-c C-l .") 'lsp-ui-peek-find-definitions)
 (define-key lsp-ui-mode-map (kbd "C-c C-l ?") 'lsp-ui-peek-find-references)
+(define-key lsp-ui-mode-map (kbd "M-/") 'lsp-ui-peek-find-references)
 (define-key lsp-ui-mode-map (kbd "C-c C-l r") 'lsp-rename)
 (define-key lsp-ui-mode-map (kbd "C-c C-l x") 'lsp-workspace-restart)
 (define-key lsp-ui-mode-map (kbd "C-c C-l w") 'lsp-ui-peek-find-workspace-symbol)
