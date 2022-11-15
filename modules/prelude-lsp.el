@@ -51,7 +51,7 @@
 (setq lsp-ui-sideline-enable t)
 (setq lsp-ui-doc-enable t)
 (setq lsp-ui-peek-enable t)
-(setq lsp-ui-peek-always-show t)
+(setq lsp-ui-peek-always-show nil)
 
 (provide 'prelude-lsp)
 ;;; prelude-lsp.el ends here
