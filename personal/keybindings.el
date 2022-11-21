@@ -8,3 +8,6 @@
 (global-set-key (kbd "M-p") 'symbol-overlay-jump-prev)
 (setq symbol-overlay-idle-time 0.1)
 (add-hook 'prog-mode-hook (lambda () (symbol-overlay-mode 1)))
+
+;;switch to last buffer
+(global-set-key (kbd "C-c b") 'crux-switch-to-previous-buffer)
