@@ -13,4 +13,12 @@
 ;;switch to last buffer
 (global-set-key (kbd "C-c c") 'crux-switch-to-previous-buffer)
 
+;; multi cursor
+(global-set-key (kbd "C-c m a") 'mc/mark-all-dwim)
+(global-set-key (kbd "C-c m n") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-c m p") 'mc/mark-previous-like-this)
+
 (prelude-require-package 'multiple-cursors)
+
+;; jump to last change, courtesy of xenodium's dotsies
+(global-set-key (kbd "M-g l") 'last-change-jump)
