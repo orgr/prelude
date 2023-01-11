@@ -2,6 +2,8 @@
 (define-key lsp-ui-mode-map (kbd "M-/") 'lsp-ui-peek-find-references)
 (define-key prelude-mode-map (kbd "M-o") 'ace-window)
 (global-set-key (kbd "C-M-;") 'hippie-expand)
+(global-set-key (kbd "M-[") 'tab-bar-switch-to-prev-tab)
+(global-set-key (kbd "M-]") 'tab-bar-switch-to-next-tab)
 
 ;; use symbol overlay for navigating to next symbol occurance with M-n/M-p
 (prelude-require-package 'symbol-overlay)
