@@ -1,4 +1,4 @@
-(global-set-key (kbd "M-?") 'xref-find-references)
+(define-key lsp-ui-mode-map (kbd "M-?") 'lsp-ui-peek-find-references)
 (define-key prelude-mode-map (kbd "M-o") 'ace-window)
 
 
@@ -27,6 +27,3 @@
 
 ;; swiper-isearch for in-line search navigation
 (global-set-key (kbd "C-r") 'swiper-isearch)
-
-;; python specific (anaconda-mode)
-;; (define-key anaconda-mode-map (kbd "M-?") 'anaconda-mode-find-references)
